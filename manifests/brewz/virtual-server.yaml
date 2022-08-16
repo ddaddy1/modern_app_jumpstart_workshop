@@ -23,7 +23,7 @@ spec:
       action:
         pass: spa
     - path: /api
-      policies:
+      policy:
         - name: rate-limit-policy
       action:
         pass: api
